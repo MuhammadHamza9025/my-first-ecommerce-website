@@ -1,0 +1,29 @@
+.cartcontainer{
+    display: flex;
+/* border: 2px solid red; */
+justify-content: space-between;
+align-items: center;
+max-width: 60vw;
+margin: auto;
+
+}
+
+.cartpic{
+    height: 40px;
+    width: 50px;
+    overflow: hidden;
+
+}
+.cartpic img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+.picds{
+    display: flex;
+    justify-content: space-around;
+}
+.fa:hover {
+color: red;
+transform: scale(1.09);
+}

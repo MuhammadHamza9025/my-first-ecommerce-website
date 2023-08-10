@@ -1,38 +1,111 @@
-.App {
-  text-align: center;
+*{
+  margin: 0px;
+  padding: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+/* Services  */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&family=Noto+Sans+Display:wght@100;300&family=Roboto+Condensed:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+   
+/* font-family: 'Noto Sans Display', sans-serif; */
+font-family: 'Roboto Condensed', sans-serif;
+
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1{
+    text-align: center;
+    margin-top: 3em;
 }
+.maincontainer{
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-
-.App-link {
-  color: #61dafb;
+.container{
+    
+box-shadow:  3px 1px 12px 2px rgb(152, 152, 152);
+border: 1px solid rgb(237, 237, 237);
+width: 350px;
+height: 370px;
+border-radius: 3px;
+margin: 1.5em 2rem;
+float: left;
+    
 }
+.pic{
+    height: 220px;
+    /* border: 2px solid red; */
+    /* border-radius: 6px; */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+}
+.pic img{
+    width: 100%;
+    height: 100%;
+}
+.title{
+    margin: 1em;
+}
+.para{
+    margin: 0.5em 1em ;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    /* border: 2px solid red; */
+}
+.search{ display: flex;
+    justify-content: center;}
+.search input{
+    /* max-width: 80vw; */
+    outline: none;
+    margin-top: 2em;
+    box-sizing: border-box;
+    padding: 0em 1em;
+    height: 30px;
+   
+}
+button{
+    width: 100px;
+   
+    height: 34px;
+    margin-left: 1em;
+    font-weight: bold;
+    background-color: transparent;
+    border:1.7px solid rgb(61, 61, 183);
+    font-weight: 500;
+}
+button:visited{
+    background-color: gray;
+}
+button:hover{
+    transition: 0.7s;
+    background-color: rgb(54, 54, 216);
+color: white;
+transform: rotate(300);
+}
+a{
+    text-decoration: none;
+}
+footer{
+    display: none;
+}
+.category{
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+}
+section{
+    /* border: 2px solid #ff0000; */
+    min-height: 100%;
+    overflow: hidden;
 }
